@@ -1,0 +1,10 @@
+.editor {
+  height: 30vh;
+  width: 90vw;
+}
+
+.input-output {
+  position: fixed;
+  left: 5vh;
+  top: 5vh;
+}

@@ -1,0 +1,18 @@
+.first-class {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: darkgreen;
+  height: 30vh;
+  width: 60vw;
+}
+
+.second-class {
+  display: hidden;
+}
+
+.third-class {
+  background-color: black;
+  position: fixed;
+  top: 10vh;
+  left: 10vw;
+}

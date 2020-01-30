@@ -1,0 +1,30 @@
+.output {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: monospace;
+}
+
+__ {
+  position: fixed;
+  transform: translate(-50%, -50%);
+  top: 50vh;
+  left: 50vh;
+}
+
+.up {
+  top: 25vh;
+}
+
+.down {
+  top: 75vh;
+}
+
+.left {
+  left: 25vw;
+}
+
+.right {
+  left: 75vw;
+}
