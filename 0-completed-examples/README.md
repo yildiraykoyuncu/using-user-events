@@ -3,5 +3,5 @@ Completed examples to study.  Each of these work, all of them have something to 
 * [Insistent Ghost](./insistent-ghost)
 * [Duck Duck Search](./duck-duck-search)
 * [Color Palate](./color-palate)
-* [Hovercraft](./hover-craft)
+* [Hovercraft](./hovercraft)
 * [Type Caster](./type-caster)
