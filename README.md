@@ -21,7 +21,7 @@ And 3 helpful resources:
 
 ---
 
-![food, not food](./separation-of-concerns.png)
+![[food, not food](https://deviq.com/separation-of-concerns/)](./separation-of-concerns.png)
 
 ---
 ---
