@@ -29,7 +29,7 @@ Players can put in random words to create funny stories.
 
 | type | attached to | callback |
 | --- | --- | --- | --- |
-| `click` | `id='user-action'` | `event => console.log(event)` |
+| `click` | `id='user-action'` | `handler` |
 
 ## Handlers
 
