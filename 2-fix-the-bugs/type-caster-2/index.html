@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Type Caster</title>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <script src='../../testing.js'></script>
+  <script src='./scripts/logics.js'></script>
+  <script src='./scripts/handler.js'></script>
+</head>
+
+<body>
+  <section id='user-interface' class='inputs'>
+    <form>
+      Cast this string:
+      <input name='value' type='text' />
+      To this type:
+      <select name="type">
+        <option value="String">string</option>
+        <option value="Number">number</option>
+        <option value="Boolean">boolean</option>
+        <option value="Undefined">undefined</option>
+      </select>
+      <button type='button' id='user-action' value='Cast it!' />
+    </form>
+    <code id='casted-value' class='output'></code>
+  </section>
+
+  <script src='./scripts/listener.js'></script>
+</body>
+
+</html>

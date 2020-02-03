@@ -7,9 +7,9 @@ As a student I can enter terms and search them so that each day I learn a little
 | tag name | attributes | role |
 | --- | --- | --- |
 | `<section>` | `id='user-interface'` | the section that contains all user interface elements |
-| `<form>` | (none) | this is the form that will host all user interactions |
+| `<form>` | `class='search-form'` | this is the form that will host all user interactions |
 | `<input>` | `type='search'`, `name='query'`, `class='input-field'` | this is where users will type their questions |
-| `<button>` | `type='button'`, `id='user-action'` | a user will click this to trigger a search |
+| `<input>` | `type='button'`, `id='user-action'` | a user will click this to trigger a search |
 
 ## Styling
 

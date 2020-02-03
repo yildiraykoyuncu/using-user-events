@@ -1,4 +1,4 @@
-You're on your own!  Each README contains a title and a user-story, and the rest is up to you.
+Below are 5 titles & user stories.  There's an `../empty-boilerplate` project to help you get started. You're on your own!
 
 * []()
 * []()
