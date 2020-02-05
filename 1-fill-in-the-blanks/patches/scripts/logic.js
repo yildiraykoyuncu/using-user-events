@@ -6,6 +6,9 @@ const filterColorsTests = [
   { name: 'fifth', args: ['yellow'], expected: 'yellow' },
   { name: 'sixth', args: ['grey'], expected: 'grey' },
   { name: 'seventh', args: ['black'], expected: 'black' },
+  { name: 'eighth', args: [''], expected: 'white' },
+  { name: 'ninth', args: ['magenta'], expected: 'white' },
+  { name: 'tenth', args: ['purple'], expected: 'white' },
 ];
 
 function filterColors(color) {
