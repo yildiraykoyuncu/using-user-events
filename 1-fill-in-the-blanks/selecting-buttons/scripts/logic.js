@@ -11,7 +11,7 @@ const generateMessageTests = [
 
 function generateMessage(text) {
   if (!text) {
-    return __;
+    return '';
   } else {
     return __ + text;
   }

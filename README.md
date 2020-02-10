@@ -6,6 +6,8 @@ This repository contains a whole bunch of mini-websites for you to study and pra
 
 Instead the goal to get lots of practice navigating source code, debugging, and incrementally developing websites that handle user input with JavaScript.
 
+> Before working on these exercises, you should first study [listeners-and-handlers](https://github.com/hackyourfuturebelgium/listeners-and-handlers) & [handler-refactors](https://github.com/hackyourfuturebelgium/handler-refactors)
+
 There are 4 sets of exercises:
 
 * [Fill in the Blanks](./1-fill-in-the-blanks)
