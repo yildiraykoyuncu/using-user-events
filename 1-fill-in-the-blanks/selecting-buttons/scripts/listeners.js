@@ -1,6 +1,6 @@
-const divs = document.getElementsByTagName("button");
+const buttons = document.getElementsByTagName("button");
 for (let i = 0; i < __.length; i++) {
-  divs[__].addEventListener('focus', identifyButton);
-  divs[__].addEventListener('keypress', alertButtonName);
-  divs[__].addEventListener('blur', clearOutput);
+  buttons[__].addEventListener('focus', identifyButton);
+  buttons[__].addEventListener('keypress', alertButtonName);
+  buttons[__].addEventListener('blur', clearOutput);
 }

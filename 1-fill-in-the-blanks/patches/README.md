@@ -1,6 +1,6 @@
-# Selecting Buttons
+# Patches
 
-Selecting a button will display the button text in  center of the screen.
+Mousing over invisible patches of the screen will change the background color
 
 ## DOM
 
