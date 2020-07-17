@@ -8,7 +8,7 @@ An approximate calculator.  Users can move the sliders and change the operation,
 | --- | --- | --- |
 | `<section>` | `id='user-input'` | contains the user interface elements |
 | `<form>` | `id='inputs'` | contains the user interaction elements and allows capturing all inputs with one event |
-| `<input>` | `type='range'`, `name='left'`, `class='input-slider'` | allows users to set the left operand || `<option>` | `value='number'` |  a target type for the `typeCaster` function's first argument |
+| `<input>` | `type='range'`, `name='left'`, `class='input-slider'` | allows users to set the left operand |
 | `<select>` | `name='operation'` | contains the possible operations as a selection field |
 | `<option>` | `value='add'` | indicates to use  addition |
 | `<option>` | `value='subtract'` | indicates to use  subtraction |
