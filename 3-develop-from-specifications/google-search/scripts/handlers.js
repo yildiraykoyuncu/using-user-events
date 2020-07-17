@@ -1,4 +1,4 @@
-function handler(event) {
+function googlIt(event) {
   // read & process user input
 
 

@@ -21,13 +21,13 @@ This basic web page redirects all searches directly to google
 
 | type | attached to | callback |
 | --- | --- | --- |
-| `blur` | `id='search-it'` | `gooooogle` |
+| `blur` | `id='search-it'` | `googleIt` |
 
 ## Handlers
 
 | syntax | parameters | return value | behavior |
 | --- | --- | --- | --- |
-| `gooooogle(triggeredEvent)` | _Event_: user-triggered event | _Boolean_: true | process user query from an event, create a search URL, open it a new tab, log the action & return `true` to the browser |
+| `googleIt(triggeredEvent)` | _Event_: user-triggered event | _Boolean_: true | process user query from an event, create a search URL, open it a new tab, log the action & return `true` to the browser |
 
 ## Logic
 

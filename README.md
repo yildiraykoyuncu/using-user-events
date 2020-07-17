@@ -13,7 +13,6 @@ There are 4 sets of exercises:
 * [Fill in the Blanks](./1-fill-in-the-blanks)
 * [Fix the Bugs](./2-fix-the-bugs)
 * [Develop from Specifications](./3-develop-from-specifications)
-* [Open-Ended](./4-open-ended)
 
 And 3 helpful resources:
 
