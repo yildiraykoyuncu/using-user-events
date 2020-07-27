@@ -58,12 +58,11 @@ function testing(func, tests) {
       console.log('%c- expected:', 'color:blue;font-weight:bold;', '(' + typeof test.expected + '),', test.expected);
       console.groupEnd();
 
+      const deepCompare = (actual, expect) => actual === expect || Object.is(actual, expect) || (Object(actual) === actual && Object(expect) === expect) && (Array.isArray(actual) && Array.isArray(expect) && actual.length === expect.length && expect.every((expect, index) => deepCompare(actual[index], expect)) || Reflect.ownKeys(actual).length === Reflect.ownKeys(expect).length && Reflect.ownKeys(expect).every((key) => deepCompare(actual[key], expect[key])));
       if (result instanceof Error) {
         console.log('%c- ERROR', 'color:red;font-weight:bold;');
 
-      } else if (test.expected !== test.expected // is the expected value NaN?
-        ? result !== result // then check if the returned one is
-        : result === test.expected) { // otherwise compare them directly
+      } else if (deepCompare(result, test.expected)) { // otherwise compare them directly
         console.log('%c- PASS', 'color:green;font-weight:bold;');
 
       } else {
