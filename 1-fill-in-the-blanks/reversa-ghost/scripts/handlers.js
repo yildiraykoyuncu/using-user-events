@@ -12,7 +12,4 @@ function reverseItHandler(event) {
   console.log('\n-- user action --');
   console.log('userInput:', '(' + typeof userInput + ')', userInput);
   console.log('__:', '(' + typeof __ + ')', __);
-
-  // tell the browser everything is OK
-  return true;
 }

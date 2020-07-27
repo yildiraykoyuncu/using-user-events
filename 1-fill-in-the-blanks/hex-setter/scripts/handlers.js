@@ -24,7 +24,4 @@ function setColorHandler(event) {
   console.log('char5:', '(' + typeof __ + ')', __);
   console.log('char6:', '(' + typeof char6 + ')', char6);
   console.log('newStyle:', '(' + typeof newStyle + ')', newStyle);
-
-  // tell the browser everything is OK
-  return true;
 }

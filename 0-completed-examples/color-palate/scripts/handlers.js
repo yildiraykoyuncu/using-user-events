@@ -13,7 +13,4 @@ function setColorHandler(event) {
   console.log('\n-- user action --');
   console.log('newColor:', '(' + typeof newColor + ')', newColor);
   console.log('newStyle:', '(' + typeof newStyle + ')', newStyle);
-
-  // tell the browser everything is OK
-  return true;
 }

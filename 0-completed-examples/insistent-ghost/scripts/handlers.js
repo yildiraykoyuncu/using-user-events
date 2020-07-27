@@ -12,7 +12,4 @@ function capsLockHandler(event) {
   console.log('\n-- user action --');
   console.log('userInput:', '(' + typeof userInput + ')', userInput);
   console.log('allUpperCase:', '(' + typeof allUpperCase + ')', allUpperCase);
-
-  // tell the browser everything is OK
-  return true;
 }

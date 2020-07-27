@@ -12,9 +12,6 @@ function identifyButton(event) {
   console.log('\n-- identifyButton --');
   console.log('buttonText:', '(' + typeof buttonText + ')', buttonText);
   console.log('centerMessage:', '(' + typeof centerMessage + ')', centerMessage);
-
-  // tell the browser everything is OK
-  return true;
 }
 
 function clearOutput() {
@@ -26,9 +23,6 @@ function clearOutput() {
 
   // log action for developers
   console.log('\n-- clearOutput --');
-
-  // tell the browser everything is OK
-  return true;
 }
 
 function alertButtonName(event) {
@@ -47,7 +41,4 @@ function alertButtonName(event) {
   console.log('\n-- alertButtonName --');
   console.log('keyPressed:', '(' + typeof keyPressed + ')', keyPressed);
   console.log('isEnter:', '(' + typeof isEnter + ')', isEnter);
-
-  // tell the browser everything is OK
-  return true;
 }

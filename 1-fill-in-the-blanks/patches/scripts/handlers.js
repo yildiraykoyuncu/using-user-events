@@ -12,9 +12,6 @@ function __(event) {
   console.log('\n-- setBackground --');
   console.log('divId:', '(' + typeof divId + ')', divId);
   console.log('newColor:', '(' + typeof newColor + ')', newColor);
-
-  // tell the browser everything is OK
-  return true;
 }
 
 function __() {
@@ -23,7 +20,4 @@ function __() {
 
   // log action for developers
   console.log('\n-- unsetBackground --');
-
-  // tell the browser everything is OK
-  return true;
 }

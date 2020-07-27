@@ -12,7 +12,4 @@ function hovercraftHandler(event) {
   console.log('\n-- user action --');
   console.log('whichOne:', '(' + typeof whichOne + ')', whichOne);
   console.log('newClass:', '(' + typeof newClass + ')', newClass);
-
-  // tell the browser everything is OK
-  return true;
 }

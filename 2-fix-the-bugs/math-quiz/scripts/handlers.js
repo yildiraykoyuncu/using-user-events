@@ -20,9 +20,6 @@ function showResult() {
   console.log('operation:', '(' + typeof operation + ')', operation);
   console.log('secondNumber:', '(' + typeof secondNumber + ')', secondNumber);
   console.log('result:', '(' + typeof result + ')', result);
-
-  // for the browser
-  return true;
 }
 
 
@@ -33,7 +30,4 @@ function hideResult() {
   // log action
   console.log('\n-- user action --');
   console.log('cleared program output');
-
-  // for the browser
-  return true;
 }

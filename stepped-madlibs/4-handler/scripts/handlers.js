@@ -18,7 +18,4 @@ function handler(event) {
   console.log('adjective:', typeof adjective + ',', adjective);
   console.log('adverb:', typeof adverb + ',', adverb);
   console.log('madlib:', typeof madlib + ',', madlib);
-
-  // continue default behavior
-  return true;
 }

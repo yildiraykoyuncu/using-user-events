@@ -12,7 +12,4 @@ function reverseHandler(event) {
   console.log('\n-- user action --');
   console.log('userInput:', userInput);
   console.log('reversed:', reversed);
-
-  // for the browser
-  return true;
 }

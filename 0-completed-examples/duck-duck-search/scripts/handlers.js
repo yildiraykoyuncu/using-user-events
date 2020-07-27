@@ -13,8 +13,5 @@ function searchHandler(event) {
   console.log('\n-- user action --');
   console.log('userInput:', '(' + typeof userInput + ')', userInput);
   console.log('searchURL:', '(' + typeof searchURL + ')', searchURL);
-
-  // tell the browser everything is OK
-  return true;
 }
 

@@ -15,8 +15,5 @@ function typeCastHandler(event) {
   console.log('stringToCast:', '(' + typeof stringToCast + ')', stringToCast);
   console.log('intendedType:', '(' + typeof intendedType + ')', intendedType);
   console.log('newValue:', '(' + typeof newValue + ')', newValue);
-
-  // tell the browser everything is OK
-  return true;
 }
 

@@ -17,7 +17,4 @@ function editorClassesHandler(__) {
   console.__('newSize:', '(' + typeof newSize + ')', newSize);
   console.log('newColor:', '(' + typeof newColor + ')', newColor);
   console.log('newClasses:', '(' + typeof newClasses + ')', newClasses);
-
-  // tell the browser everything is OK
-  return true;
 }
