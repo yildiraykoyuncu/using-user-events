@@ -1,11 +1,11 @@
 const generateMessageTests = [
-  { name: 'first', args: [''], expected: '' },
-  { name: 'second', args: [false], expected: '' },
-  { name: 'third', args: [undefined], expected: '' },
-  { name: 'fourth', args: [null], expected: '' },
-  { name: 'fifth', args: ['yellow'], expected: 'selected: \nyellow' },
-  { name: 'sixth', args: ['top'], expected: 'selected: \ntop' },
-  { name: 'seventh', args: ['bottom'], expected: 'selected: \nbottom' },
+  { name: 'Test 1', args: [''], expected: '' },
+  { name: 'Test 2', args: [false], expected: '' },
+  { name: 'Test 3', args: [undefined], expected: '' },
+  { name: 'Test 4', args: [null], expected: '' },
+  { name: 'Test 5', args: ['yellow'], expected: 'selected: \nyellow' },
+  { name: 'Test 6', args: ['top'], expected: 'selected: \ntop' },
+  { name: 'Test 7', args: ['bottom'], expected: 'selected: \nbottom' },
   { name: 'eighth', args: [true], expected: 'selected: \ntrue' },
 ];
 

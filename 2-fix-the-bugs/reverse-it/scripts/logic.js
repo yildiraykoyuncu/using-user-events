@@ -1,10 +1,10 @@
 const reverseTests = [
-  { name: 'first', args: ['lower case words'], expected: 'sdrow esac rewol' },
-  { name: 'second', args: ['1324 &*()'], expected: ')(*& 4231' },
-  { name: 'third', args: [''], expected: '' },
-  { name: 'fourth', args: ['UPPER CASE WORDS'], expected: 'SDROW ESAC REPPU' },
-  { name: 'fifth', args: ['--""{}""--'], expected: '--""}{""--' },
-  { name: 'sixth', args: ['String.prototype.toUpperCase'], expected: 'esaCreppUot.epytotorp.gnirtS' },
+  { name: 'Test 1', args: ['lower case words'], expected: 'sdrow esac rewol' },
+  { name: 'Test 2', args: ['1324 &*()'], expected: ')(*& 4231' },
+  { name: 'Test 3', args: [''], expected: '' },
+  { name: 'Test 4', args: ['UPPER CASE WORDS'], expected: 'SDROW ESAC REPPU' },
+  { name: 'Test 5', args: ['--""{}""--'], expected: '--""}{""--' },
+  { name: 'Test 6', args: ['String.prototype.toUpperCase'], expected: 'esaCreppUot.epytotorp.gnirtS' },
 ];
 
 function reverse(str) {
