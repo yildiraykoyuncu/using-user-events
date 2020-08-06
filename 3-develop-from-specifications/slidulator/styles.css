@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section#user-input {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#input-display {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+form#inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+form#inputs input[type='range'] {
+    width: 30%;
+}
+
+.output-field {
+    font-size: 35px;
+    padding: 15px;
+}

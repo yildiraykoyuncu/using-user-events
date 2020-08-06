@@ -1,23 +1,24 @@
-function __(event) {
-  // read & process user input
-  const divId = event.target.__;
+function setBackground(event) {
+    // read & process user input
+    const divId = event.target.id;
+    console.log(event)
 
-  // execute core logic
-  const newColor = __(divId);
+    // execute core logic
+    const newColor = filterColors(divId);
 
-  // display results to user
-  document.body.style.backgroundColor = newColor;
+    // display results to user
+    document.body.style.backgroundColor = newColor;
 
-  // log action for developers
-  console.log('\n-- setBackground --');
-  console.log('divId:', '(' + typeof divId + ')', divId);
-  console.log('newColor:', '(' + typeof newColor + ')', newColor);
+    // log action for developers
+    console.log('\n-- setBackground --');
+    console.log('divId:', '(' + typeof divId + ')', divId);
+    console.log('newColor:', '(' + typeof newColor + ')', newColor);
 }
 
-function __() {
-  // render results to user
-  document.body.style.__ = 'white';
+function unsetBackground() {
+    // render results to user
+    document.body.style.background = 'white';
 
-  // log action for developers
-  console.log('\n-- unsetBackground --');
+    // log action for developers
+    console.log('\n-- unsetBackground --');
 }

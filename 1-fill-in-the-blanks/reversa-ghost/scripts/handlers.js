@@ -1,15 +1,15 @@
 function reverseItHandler(event) {
-  // read & process user input
-  const userInput = __;
+    // read & process user input
+    const userInput = event.target.value;
 
-  // execute core logic
-  const reversed = __(userInput);
+    // execute core logic
+    const reversed = reverse(userInput);
 
-  // display results to user
-  document.getElementById('__').innerHTML = reversed;
+    // display results to user
+    document.getElementById('output').innerHTML = reversed;
 
-  // log action for developers
-  console.log('\n-- user action --');
-  console.log('userInput:', '(' + typeof userInput + ')', userInput);
-  console.log('__:', '(' + typeof __ + ')', __);
+    // log action for developers
+    console.log('\n-- user action --');
+    console.log('userInput:', '(' + typeof userInput + ')', userInput);
+    console.log('output:', '(' + typeof reversed + ')', reversed);
 }

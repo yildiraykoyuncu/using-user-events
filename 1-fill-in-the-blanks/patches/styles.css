@@ -1,40 +1,40 @@
-__ {
-  height: 10vh;
-  width: 10vw;
-  position: fixed;
+div {
+    height: 10vh;
+    width: 10vw;
+    position: fixed;
 }
 
 #red {
-  top: 39vh;
-  left: 20vw;
+    top: 39vh;
+    left: 20vw;
 }
 
 #orange {
-  top: 0vh;
-  left: 46vw;
+    top: 0vh;
+    left: 46vw;
 }
 
 #blue {
-  top: 14vh;
-  left: 96vw;
+    top: 14vh;
+    left: 96vw;
 }
 
 #green {
-  top: 67vh;
-  left: 05vw;
+    top: 67vh;
+    left: 05vw;
 }
 
-#__ {
-  top: 62vh;
-  left: 02vw;
+#yellow {
+    top: 62vh;
+    left: 02vw;
 }
 
 #grey {
-  top: 14vh;
-  left: 29vw;
+    top: 14vh;
+    left: 29vw;
 }
 
 #black {
-  top: 62vh;
-  left: 59vw;
+    top: 62vh;
+    left: 59vw;
 }

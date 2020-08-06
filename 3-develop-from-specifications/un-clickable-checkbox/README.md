@@ -7,7 +7,7 @@ A user can never click the checkbox because it follows their mouse.
 | tag name | attributes | role |
 | --- | --- | --- |
 | `<section>` | `id='user-interface'`, `class='full-screen'` | contains the user-interface elements & tracks the mouse movements |
-| `<input>` | `class='shaddow'`, `id='follower'`, `type='checkbox'` | is infuriating |
+| `<input>` | `class='shadow'`, `id='follower'`, `type='checkbox'` | is infuriating |
 
 ## Styling
 

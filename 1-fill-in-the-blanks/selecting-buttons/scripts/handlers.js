@@ -1,44 +1,44 @@
 function identifyButton(event) {
-  // read & process user input
-  const buttonText = event.target.__;
+    // read & process user input
+    const buttonText = event.target.innerHTML;
 
-  // execute core logic
-  const centerMessage = generateMessage(buttonText);
+    // execute core logic
+    const centerMessage = generateMessage(buttonText);
 
-  // display results to user
-  document.getElementById('__').innerHTML = centerMessage;
+    // display results to user
+    document.getElementById('center-text').innerHTML = centerMessage;
 
-  // log action for developers
-  console.log('\n-- identifyButton --');
-  console.log('buttonText:', '(' + typeof buttonText + ')', buttonText);
-  console.log('centerMessage:', '(' + typeof centerMessage + ')', centerMessage);
+    // log action for developers
+    console.log('\n-- identifyButton --');
+    console.log('buttonText:', '(' + typeof buttonText + ')', buttonText);
+    console.log('centerMessage:', '(' + typeof centerMessage + ')', centerMessage);
 }
 
 function clearOutput() {
-  // execute core logic
-  const centerMessage = __('');
+    // execute core logic-
+    const centerMessage = generateMessage('');
 
-  // render results to user
-  document.getElementById('center-text').innerHTML = centerMessage;
+    // render results to user
+    document.getElementById('center-text').innerHTML = centerMessage;
 
-  // log action for developers
-  console.log('\n-- clearOutput --');
+    // log action for developers
+    console.log('\n-- clearOutput --');
 }
 
 function alertButtonName(event) {
-  // process user event
-  const keyPressed = __.keyCode;
+    // process user event
+    const keyPressed = event.keyCode;
 
-  // execute core logic
-  const isEnter = generateMessage(__);
+    // execute core logic
+    const isEnter = keyIsEnter(keyPressed);
 
-  // render results to user
-  if (isEnter) {
-    alert(e.target.innerHTML);
-  }
+    // render results to user
+    if (isEnter) {
+        alert(event.target.innerHTML);
+    }
 
-  // log action for developers
-  console.log('\n-- alertButtonName --');
-  console.log('keyPressed:', '(' + typeof keyPressed + ')', keyPressed);
-  console.log('isEnter:', '(' + typeof isEnter + ')', isEnter);
+    // log action for developers
+    console.log('\n-- alertButtonName --');
+    console.log('keyPressed:', '(' + typeof keyPressed + ')', keyPressed);
+    console.log('isEnter:', '(' + typeof isEnter + ')', isEnter);
 }

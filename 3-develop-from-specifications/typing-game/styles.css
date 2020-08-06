@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section#user-interface {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    justify-content: space-evenly;
+}
+
+form .input-field {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.failing {
+    border: 3px solid red;
+    background-color: tomato;
+}
+
+.passing {
+    border: 3px solid green;
+    background-color: greenyellow;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="../../testing.js"></script>
+    <script src="./scripts/logic.js"></script>
+    <script src="./scripts/handlers.js"></script>
+</head>
+
+<body>
+
+    <section id="user-input">
+
+        <div class="container">
+
+            <div id="input-display">
+                <code id="input-left">0</code>
+                <code id="input-right">0</code>
+            </div>
+
+            <form action="" id="inputs">
+                <input id="left" type="range" class="input-slider" name="left" min="-500" max="500">
+                <select name="operation" id="operation">
+                    <option value="add">+</option>
+                    <option value="subtract">-</option>
+                    <option value="multiply">*</option>
+                    <option value="divide">/</option>
+                </select>
+                <input id="right" type="range" class="input-slider" name="right" min="-500" max="500">
+            </form>
+
+            <code id="program-output" class="output-field">0</code>
+
+        </div>
+
+
+
+
+
+        <script src="./scripts/event-listeners.js"></script>
+    </section>
+
+</body>
+
+</html>

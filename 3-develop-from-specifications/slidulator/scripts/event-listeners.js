@@ -1,0 +1,1 @@
+document.getElementById('inputs').addEventListener('change', mathOperationHandler)
